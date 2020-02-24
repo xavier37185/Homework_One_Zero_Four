@@ -68,7 +68,17 @@ for page in range(pages+!)[1:]:
 #soup.select('.job-description__content')[0].text.strip().replace('\n','').replace('\r','').replace('\t','') #工作內容
 #           soup.select('u')[0].text.strip() #職務類別
 #           soup.select('.monthly-salary')[0].text.strip() #工作待遇   
-            
+#soup.find_all("p", class_="t3 mb-0")
+#0. 全職
+#1. 地址
+#2. 不需負擔管理責任
+#3. 無需出差外派
+#4. 日班
+#5. 休假制度
+#6. 可上班日
+#7. 需求人數
+#8. 工作經歷
+#9. 學歷要求            
 #########待解決問題: 1. 加入抓取公司網址 抓取人數規模等資訊,其他資訊欄位還需補齊
 #          2. 判斷重複資料
 #          3. 資料儲存方式
