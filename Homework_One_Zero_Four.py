@@ -65,7 +65,7 @@ for page in range(pages+!)[1:]:
                 rawdata = requests.get(url)
             if 'b-block--top-bord' not in i.get('class'):
                 break
-#           soup.select('.job-description__content')[0].text.strip().replace('\n','') #工作內容
+#soup.select('.job-description__content')[0].text.strip().replace('\n','').replace('\r','').replace('\t','') #工作內容
 #           soup.select('u')[0].text.strip() #職務類別
 #           soup.select('.monthly-salary')[0].text.strip() #工作待遇   
             
