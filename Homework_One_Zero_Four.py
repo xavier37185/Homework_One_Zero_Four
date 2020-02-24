@@ -68,7 +68,8 @@ for page in range(pages+!)[1:]:
 #soup.select('.job-description__content')[0].text.strip().replace('\n','').replace('\r','').replace('\t','') #工作內容
 #           soup.select('u')[0].text.strip() #職務類別
 #           soup.select('.monthly-salary')[0].text.strip() #工作待遇   
-#soup.find_all("p", class_="t3 mb-0")
+#soup.find_all("p", class_="t3 mb-0") 
+#總共可找到10筆資料,依序為
 #0. 全職
 #1. 地址
 #2. 不需負擔管理責任
